@@ -9,4 +9,14 @@
     <PackageReference Include="MySql.Data" Version="8.0.15" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Univercity.AppContext\Univercity.AppContext.csproj" />
+    <ProjectReference Include="..\Univercity.Domain.Abstractions\Univercity.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\Univercity.Entities\Univercity.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
